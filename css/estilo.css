@@ -1,0 +1,198 @@
+/*CORES
+CINZA : #58585a;
+TEXTO : #303030;
+BRANCO : #f7f7f9;
+AMARELO: #ffcd07;
+/*----------Geral----------*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background:url(../imagens/fundo.jpg);
+}
+
+.container{
+    box-shadow:1px 1px 100px black;
+}
+
+article h2, aside h2{
+    text-shadow:1px 1px 10px silver;
+}
+
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+
+h1{
+    text-shadow: 1px 1px 10px black;
+}
+
+/*-----------HEADER----------*/
+header{
+    background:#58585a; 
+    color:#f7f7f9;
+    padding:2rem;
+    border-bottom:10px solid #ffcd07;
+}
+
+header hr{
+    color:#ffcd07;
+}
+
+header h2{
+    font-weight:lighter;
+    font-size:1.1rem;
+}
+
+header h4{
+    margin:1rem 0;
+}
+
+header img{
+    border-radius:50%;
+}
+
+/*----------SKILLS----------*/
+.skills{
+    background:#58585a;
+    color:#f7f7f9;
+    padding:0 !important;
+}
+
+.skills .fa{
+    border-radius:50%;
+    padding:0.7rem;
+}
+
+.skills h2{
+    color:black;
+    background-color:#f7f7f9;
+    color:#303030;
+    border-right:1px solid #58585a;
+}
+
+.skills ul{
+    list-style:none;
+    padding:1rem;
+}
+
+.skills ul li{
+    margin:1rem 0;
+}
+
+.skills .bar{
+    background:#827f8a;
+    width:100%;
+}
+
+.skills .bar .bar-inner{
+    height:10px;
+    background:#ffcd07;
+    border-radius:2px;
+}
+
+.skills ul li:nth-child(1) .bar-inner{
+    width:90%;
+}
+
+.skills ul li:nth-child(2) .bar-inner{
+    width:80%;
+}
+
+.skills ul li:nth-child(3) .bar-inner{
+    width:75%;
+}
+
+.skills ul li:nth-child(4) .bar-inner{
+    width:35%;
+}
+
+.skills ul li:nth-child(5) .bar-inner{
+    width:50%;
+}
+
+.skills ul li:nth-child(6) .bar-inner{
+    width:30%;
+}
+
+.skills ul li:nth-child(7) .bar-inner{
+    width:38%;
+}
+
+.skills ul li:nth-child(8) .bar-inner{
+    width:40%;
+}
+
+.skills .idiomas li:nth-child(1) .bar-inner{
+    width:100%;
+}
+
+.skills .idiomas li:nth-child(2) .bar-inner{
+    width:50%;
+}
+
+/*----------CONTATO----------*/
+
+.contato p{
+    padding:1rem;
+}
+.contato{
+    font-size:0.8rem;
+}
+
+.contato a{
+    color:#f7f7f9;
+    text-decoration:none;
+}
+
+.contato a:hover{
+    color:#ffcd07;
+    text-decoration:underline;
+}
+
+.contato h2{
+    font-size:1.5rem;
+}
+/*----------ARTICLE----------*/
+article{
+    padding:2rem;
+    color:#303030;
+    background:#f7f7f9;
+}
+article .portfolio .row{
+    padding:1.5rem 0;
+}
+
+article .portfolio img{
+    width:100%;
+    height:100%;
+}
+
+article img{
+    transition: 0.2s;
+}
+
+article img:hover{
+    opacity:0.5;
+}
+
+article .formacao .row{
+    margin:2rem 0;
+}
+
+article .formacao img{
+    width:100%;
+    height:40%;
+}
+
+article h2{
+    margin:2rem 0;
+}
+
+
+
+
