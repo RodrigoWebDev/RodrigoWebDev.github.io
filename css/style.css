@@ -709,6 +709,12 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #34495e;
 }
 
+#contact .col-lg-12 p{
+    color:white;
+    font-size:2rem;
+    text-transform:uppercase;
+}
+
 @media screen and (max-width:991px) {
     #mainNav img{
         display:none;
