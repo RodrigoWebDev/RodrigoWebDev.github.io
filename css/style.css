@@ -733,6 +733,20 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     }
 }
 
+@media screen and (max-width:560px) {
+    #contact .col-lg-12 p{
+        font-size:1.5rem;
+    }
+
+}
+
+@media screen and (max-width:408px) {
+    #contact .col-lg-12 p{
+        font-size:1rem;
+    }
+
+}
+
 @media screen and (max-width:549px) {
     header.masthead .intro-text .intro-heading{
         font-size:1.8rem; 
