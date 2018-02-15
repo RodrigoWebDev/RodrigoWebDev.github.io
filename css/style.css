@@ -306,6 +306,10 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+#portfolio .btn{
+    margin:0 auto;
+}
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
