@@ -23,6 +23,15 @@ a:hover {
   color: #141414 !important;
 }
 
+.whatsapp{
+    color:white;
+}
+
+.whatsapp:hover{
+    color:white;
+    opacity:0.5;
+}
+
 h1,
 h2,
 h3,
