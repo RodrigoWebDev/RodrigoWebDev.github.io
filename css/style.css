@@ -81,7 +81,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
 ::-moz-selection {
@@ -92,6 +93,10 @@ section h3.section-subheading {
 ::selection {
   background: #fed136;
   text-shadow: none;
+}
+
+img::-moz-selection {
+  background: transparent;
 }
 
 img::selection {
@@ -148,7 +153,7 @@ nav h1{
     padding-top: 25px;
     padding-bottom: 25px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
-    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -o-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
@@ -156,7 +161,7 @@ nav h1{
   #mainNav .navbar-brand {
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -180,9 +185,6 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -268,7 +270,7 @@ header.masthead .intro-text .intro-heading {
   width: 100%;
   height: 100%;
   -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
+  -o-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
   background:rgba(0,0,0,.9);
@@ -657,7 +659,8 @@ section#contact .form-group textarea.form-control {
 
 section#contact .form-control:focus {
   border-color: #34495e;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 section#contact ::-webkit-input-placeholder {
@@ -717,7 +720,7 @@ ul.social-buttons li a {
   width: 40px;
   height: 40px;
   -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
   color: white;
   border-radius: 100%;
