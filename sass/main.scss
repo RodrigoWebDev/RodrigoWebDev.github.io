@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgba(0,0,0,.7);
+    font-family: 'Nunito', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.container{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.nav{
+    box-shadow: 0 .25rem .125rem 0 rgba(0,0,0,0.05)!important;
+    border-bottom: solid .5px rgba(0,0,0,0.1);
+    margin-bottom: 1.25rem;
+    z-index: 10000;
+    font-weight: bold;
+    padding: 10px 0;
+    position: relative;
+    background: white;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav__menu{
+        display: none;
+        position: absolute;
+        background: white;
+        width: 100%;
+        list-style-type: none;
+        top: 80px;
+        left: 0;
+        box-shadow: 0 .25rem .125rem 0 rgba(0,0,0,0.05)!important;
+        border-bottom: solid .5px rgba(0,0,0,0.1);
+        .nav__menu-item{
+            text-decoration: none;
+            padding:10px;
+            display: block;
+        }
+
+        .nav__menu-item:hover{
+            background: rgba(0,0,0,0.05);
+        }
+    }
+    .fa-bars{
+        font-size:20px;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-bars:before{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-bars:hover{
+        background: rgba(0,0,0,.03);
+    }
+    .nav__title{
+        position: absolute;
+        left:2000000px;
+    }
+}
+
+.logo{
+    max-width: 40px;
+    cursor: pointer;
+}
+
+/******************************** DESKTOP ********************************/
+@media(min-width:768px){
+    
+}
